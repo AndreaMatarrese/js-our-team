@@ -20,3 +20,44 @@
 
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
+
+const arrEmployers = [
+    {
+        name: 'Wayne Barnett',
+        roule: 'Founder & CEO',
+        image: '..img/wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        name: 'Angela Caroll',
+        roule: 'Chief Editor',
+        image: '..img/angela-caroll-chief-editor.jpg'
+    },
+    {
+        name: 'Walter Gordon',
+        roule: 'Office Manager',
+        image: '..img/walter-gordon-office-manager.jpg'
+    },
+    {
+        name: 'Angela Lopez',
+        roule: 'Social Media Manager',
+        image: '..img/anela-lopez-social-media-manager.jpg'
+    },
+    {
+        name: 'Scott Estrada',
+        roule: 'Developer',
+        image: '..img/scott-estrada-developer.jpg'
+    },
+    {
+        name: 'Barbara Ramos',
+        roule: 'Graphic Designer',
+        image: '..img/barbara-ramos-graphic-designer.jpg'
+    },
+];
+
+// MILESTONE 1:
+// Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+console.log('Dipendenti del team')
+for(let key in arrEmployers){
+    console.log(`${arrEmployers[key].name}: ${arrEmployers[key].roule}`);
+
+}
